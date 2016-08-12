@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+	<script type="text/javascript"
+	src="http://libs.baidu.com/jquery/1.11.1/jquery.min.js"></script>
+	<script type="text/javascript" src="../js/jquery.showdesc.js"></script>
+	<style type="text/css">
+	#tesct_div{
+		width: 60px;
+		height: 60px;
+		background-color: red;
+		margin-left: 300px;
+		margin-top: 400px
+	}
+	</style>
+</head>
+
+<body>
+	<div id="tesct_div"></div>
+	<div style="width:0; height:0;border-left:30px solid transparent;border-right:30px solid transparent;border-top:30px solid yellow;"></div>
+	<script type="text/javascript">
+		$("#tesct_div").descshow({
+			height:100,width:100,
+			borderColor:'gray',
+			borderWidth:2,
+			backgroundColor:'white',
+			arrowLenght:10,
+			content:'hahahahahahahahhahahahahah',
+			appendContext:function(event){
+				//event.append("<h1>hahah</h1>")
+			}
+		});
+	</script>
+</body>
+</html>
