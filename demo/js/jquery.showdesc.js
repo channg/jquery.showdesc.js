@@ -29,12 +29,33 @@
 	
 	
 	$.fn.descshow=function(data){
+		data = $.extend({
+			height:60,
+			width:100,
+			borderColor:'gray',
+			borderWidth:2,
+			backgroundColor:'white',
+			arrowLenght:8,
+			content:'',
+			direction:null,
+			leaveTime:500,
+			appendContext:function(event){
+				
+			}},data)
+		
+		
+		
+		
 		if($(this)!=null){
 			//leave事件隐藏对话框
-			var leave_time = 500;
+			var leave_time = data.leaveTime;
 			$(this).mouseover(function(){
-				var _flage = showElement($(this));
-				console.log(_flage);
+				if(data.direction==null){
+					var _flage = showElement($(this));
+				}else{
+					var _flage =data.direction
+				}
+				//console.log(_flage);
 				desc_over = true;
 				window.clearInterval(timeout);
 				var jiantou_width = data.arrowLenght;
