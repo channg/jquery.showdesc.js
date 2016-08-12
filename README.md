@@ -1,6 +1,7 @@
 <h1>jquery.showdesc.js</h1><h3>0.01</h3>
 
 鼠标浮动 显示扩展信息插件
+根据距离浏览器侧边框值最大的方向显示
 
 ![image](https://github.com/zhiwenxue/jquery.showdesc.js/blob/master/screenshots/image1.png?raw=true)
 
@@ -23,9 +24,8 @@ $("#tesct_div").descshow({
 ```
 <h3>字段</h3>
 *  height ：提示框宽度
-
 *  width  ：提示框高度
-
+*  leaveTime  ：鼠标离开leaveTime毫秒，提示框消失
 *  borderColor：边框背景颜色
 *  borderWidth：边框宽度
 *  backgroundColor：背景颜色
