@@ -1,7 +1,8 @@
 <h1>jquery.showdesc.js</h1><h3>0.01</h3>
 
-鼠标浮动 显示扩展信息插件
-根据距离浏览器侧边框值最大的方向显示
+鼠标浮动 显示扩展信息插件<br/>
+根据距离浏览器侧边框值最大的方向显示<br/>
+可以根据ajax动态加载数据回调函数
 
 ![image](https://github.com/zhiwenxue/jquery.showdesc.js/blob/master/screenshots/image1.png?raw=true)
 
