@@ -17,6 +17,7 @@ $("#tesct_div").descshow({
 			arrowLenght:10,
 			content:'',
 			space:10,
+			leaveTime:500,
 			direction:null,
 			appendContext:function(event){
 				event.append("<h1>一个不错的插件</h1>")
