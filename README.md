@@ -9,7 +9,7 @@
 鼠标移动上可显示信息，如图
 <h3>示例代码</h3>
 ```
-	$("#tesct_div").descshow({
+$("#tesct_div").descshow({
 				height:100,width:100, 
 				borderColor:'gray',
 				borderWidth:2,
@@ -22,8 +22,7 @@
 				appendContext:function(event){
 					event.append("<h1>一个不错的插件</h1>")
 				}
-
-			});
+		});
 ```
 <h3>字段</h3>
 *  height ：提示框宽度
