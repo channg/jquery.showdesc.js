@@ -20,7 +20,7 @@ $("#tesct_div").descshow({
 				leaveTime:500,
 				direction:null,
 				appendContext:function(event){
-					event.append("<h1>一个不错的插件</h1>")
+					event.append("一个不错的插件")
 				}
 		});
 ```
