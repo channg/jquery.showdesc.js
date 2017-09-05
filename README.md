@@ -27,14 +27,15 @@ $("#tesct_div").descshow({
 ```
 
 <h3>字段</h3>
- *  height ：提示框宽度
- *  width  ：提示框高度
- *  leaveTime  ：鼠标离开leaveTime毫秒，提示框消失
- *  borderColor：边框背景颜色
- *  borderWidth：边框宽度
- *  backgroundColor：背景颜色
- *  space：提示距离目标对象位置
- *  arrowLenght：小箭头边长
- *  content：内容（直接加载）
- *  direction:null：提示框朝向（top，bottom，left，right）不使用则选择距离边框最远的方向显示
- *  appendContext：回调函数，当提示框出现调用
+
+*  height ：提示框宽度
+*  width  ：提示框高度
+*  leaveTime  ：鼠标离开leaveTime毫秒，提示框消失
+*  borderColor：边框背景颜色
+*  borderWidth：边框宽度
+*  backgroundColor：背景颜色
+*  space：提示距离目标对象位置
+*  arrowLenght：小箭头边长
+*  content：内容（直接加载）
+*  direction:null：提示框朝向（top，bottom，left，right）不使用则选择距离边框最远的方向显示
+*  appendContext：回调函数，当提示框出现调用
